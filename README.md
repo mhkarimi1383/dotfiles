@@ -1,6 +1,12 @@
 # dotfiles
 My dot file for configurations are here
 
+## For vim I'm using spaceVIM (I'm lazy)
+to install it run the command below
+```bash
+curl -sLf https://spacevim.org/install.sh | bash
+```
+
 ## to make zsh working you should do the steps below
 1. install power10k
 ```bash
