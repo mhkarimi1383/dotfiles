@@ -7,7 +7,7 @@ to install it run the command below
 curl -sLf https://spacevim.org/install.sh | bash
 ```
 
-## to make zsh working you should do the steps below
+## to make zsh working you should do the steps below (Of course you need OH my zsh)
 1. install power10k
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
