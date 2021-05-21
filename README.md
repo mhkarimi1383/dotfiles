@@ -6,6 +6,7 @@ to install it run the command below
 ```bash
 curl -sLf https://spacevim.org/install.sh | bash
 ```
+## For tmux I'm using [this repo](https://github.com/gpakosz/.tmux) (I'm lazy Again)
 
 ## to make zsh working you should do the steps below (Of course you need OH my zsh)
 1. install power10k
