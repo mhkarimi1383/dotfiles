@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mhkarimi1383/.oh-my-zsh"
+export ZSH="/home/karimi/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -100,8 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-source /home/mhkarimi1383/.oh-my-zsh/plugins/auto-complete/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source /home/mhkarimi1383/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/karimi/.oh-my-zsh/custom/plugins/auto-complete/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /home/karimi/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 s=' ' # fix too wide icons
@@ -168,7 +168,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode status command_execution_time backgr
 ZLE_RPROMPT_INDENT=0
 
 # ---- load POWERLEVEL10K ---
-source /home/mhkarimi1383/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+source /home/karimi/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # ---------- Keys
 bindkey '^[[2~' overwrite-mode
